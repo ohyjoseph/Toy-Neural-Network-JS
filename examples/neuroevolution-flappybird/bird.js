@@ -32,7 +32,7 @@ class Bird {
     // The Neural Network is the bird's "brain"
     if (brain instanceof NeuralNetwork) {
       this.brain = brain.copy();
-      this.brain.mutate(mutate);
+      // this.brain.mutate(mutate);
     } else {
       this.brain = new NeuralNetwork(5, 8, 2);
     }
